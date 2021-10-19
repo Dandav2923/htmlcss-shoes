@@ -13,5 +13,47 @@ html {
     width: 100%;
     height: 100vh;
     background-color: red;
+    position: relative;
 }
 
+.box-prodotto > img {
+    width: 100%;
+}
+.box-prodotto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.box-verde {
+    width: 100%;
+    height: 100vh;
+    background-color:green;
+    position: relative;
+
+}
+
+.box-giallo {
+    width: 100%;
+    height: 100vh;
+    background-color:yellow;
+    position: relative;
+}
+
+.box-prodotto.green {
+    color: green;
+}
+
+.collegamento {
+    position: fixed;
+    z-index: 5;
+}
+
+.pulsanti-dazione {
+    list-style-type: none;
+}
