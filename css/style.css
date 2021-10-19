@@ -56,4 +56,14 @@ html {
 
 .pulsanti-dazione {
     list-style-type: none;
+    
+
+}
+
+li {
+    display: inline-block;  
+}
+
+a {
+    text-decoration-line: none;
 }
